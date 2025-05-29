@@ -1,0 +1,84 @@
+/* Estilo geral do corpo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #283e51, #485563);
+  color: #fff;
+}
+
+/* Cabeçalho com título e campos de busca */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #1f2a38;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+/* Campo de busca */
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Botão de busca */
+button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcb05;
+  color: #2a2a2a;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background-color: #f2b807;
+}
+
+/* Container principal de resultados */
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+/* Cartão com dados do Pokémon */
+.card {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  width: 120px;
+  height: 120px;
+}
+
+/* Estilo dos tipos do Pokémon */
+div.types {
+  margin-top: 0.5rem;
+}
+span.type {
+  display: inline-block;
+  margin: 0.2rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  background-color: #ffcb05;
+  color: #2a2a2a;
+  font-weight: bold;
+}
